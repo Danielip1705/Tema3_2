@@ -13,31 +13,24 @@ public class Operaciones {
 		this.num2 = num2;
 	}
 	
-	static double Suma() {
-		Operaciones op = new Operaciones();
-		return op.num1+op.num2;
+	 double Suma() {
+		return num1+num2;
 	}
-	static double Resta() {
-		Operaciones op = new Operaciones();
-		return op.num1-op.num2;
+	 double Resta() {
+		return num1-num2;
 	}
-	static double Multiplicación() {
-		Operaciones op = new Operaciones();
-		return op.num1*op.num2;
+	 double Multiplicación() {
+		return num1*num2;
 	}
-	static double División() {
-		Operaciones op = new Operaciones();
-		return op.num1/op.num2;
+	 double División() {
+		 
+		return num1/num2;
 	}
-	static double Máximo() {
-		Operaciones op = new Operaciones();
-		double max= op.num1>op.num2 ? op.num1 : op.num2;
-		return max;
+	 double Máximo() {
+		return num1>=num2 ? num1 : num2;
 	}
-	static double Mínimo() {
-		Operaciones op = new Operaciones();
-		double min= op.num1<op.num2 ? op.num1 : op.num2;
-		return min;
+	 double Mínimo() {
+			return num1<num2 ? num1 : num2;
 	}
 	
 }

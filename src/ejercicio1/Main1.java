@@ -6,8 +6,18 @@ import java.util.Scanner;
 public class Main1 {
 
 	public static void main(String[] args) {
-	double num;
-	num =pideNumero();
+	double num1, num2;
+	int ops;
+	Operaciones oper;
+	ops = menu();
+	
+	num1 = pideNumero();
+	num2 = pideNumero();
+	oper = new Operaciones(num1,num2);
+	
+	switch() {
+	
+	}
 
 	}
 
