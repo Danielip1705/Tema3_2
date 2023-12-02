@@ -11,10 +11,14 @@ public class Rectangulo {
 		this.ancho = ancho;
 		this.alto = alto;
 	}
+
 	double perimetro() {
-		
-		return ancho*2+alto*2;
+
+		return ancho * 2 + alto * 2;
 	}
-	double
+
+	double area() {
+		return alto * alto;
+	}
 
 }
