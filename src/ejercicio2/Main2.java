@@ -13,9 +13,9 @@ public class Main2 {
 		Rectangulo rec;
 
 		do {
-			ops= menu();
 			ancho = pideAncho();
 			alto = pideAlto();
+			ops= menu();
 			rec = new Rectangulo(ancho, alto);
 			
 			switch (ops) {
