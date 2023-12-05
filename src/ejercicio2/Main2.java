@@ -30,7 +30,7 @@ public class Main2 {
 			default:
 			System.out.println("Solo se adimite permite los numeros 1[Perímetro] y 2 [Área]");	
 			}
-			System.out.println("El resultado de la operación es: "+res);
+			System.out.println("FIN");
 		}while(ops !=0);
 		
 	}

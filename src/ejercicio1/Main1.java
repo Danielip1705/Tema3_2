@@ -16,6 +16,9 @@ public class Main1 {
 		num2 = pideNumero();
 		oper = new Operaciones(num1, num2);
 			switch (ops) {
+			case 0:
+				System.out.println("FIN");
+				break;
 			case 1:
 				res = oper.Suma();
 				System.out.println("Resultado: "+res);

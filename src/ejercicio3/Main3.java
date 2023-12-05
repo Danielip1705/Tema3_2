@@ -16,7 +16,6 @@ public class Main3 {
 				cir= new Circulo(radio);
 			switch(ops) {
 			case 0:
-				System.out.println("FIN");
 				break;
 			case 1:
 				res = cir.Circunferencia();
@@ -30,6 +29,7 @@ public class Main3 {
 					System.out.println("Solo se puede insertar las opciones 1[Circunferencia] 2[Área] y 0[Salir]");
 					ops=menu();
 			}
+			System.out.println("FIN");
 		}while(ops!=0);
 
 	}
