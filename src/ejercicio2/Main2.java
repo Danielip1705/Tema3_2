@@ -1,8 +1,15 @@
 package ejercicio2;
 
 import java.util.InputMismatchException;
-import java.util.Scanner;
 
+import java.util.Scanner;
+/*/ ENTRADA:10,15,1 | RES.ESPERADO:Resultado: 50.0 | RES.OBTENIDO:Resultado: 50.0
+ *  ENTRADA: 10,15,2| RES.ESPERADO:Resultado: 225.0 | RES.OBTENIDO:Resultado: 225.0
+ *  ENTRADA:10,10,0 | RES.ESPERADO:FIN | RES.OBTENIDO: FIN
+ *   ENTRADA: hola| RES.ESPERADO: Solo se puede insertar un numero| RES.OBTENIDO: Solo se puede insertar un numero
+ *   ENTRADA: 10,10,10| RES.ESPERADO: Solo se adimite permite los numeros 1[Perímetro] y 2 [Área] y 0[Salir]| RES.OBTENIDO:Solo se adimite permite los numeros 1[Perímetro] y 2 [Área] y 0[Salir]
+ *   
+ */
 public class Main2 {
 	// declaramos la funcion scanner como estatica para que se utilize en toda la
 	// clase
@@ -76,7 +83,7 @@ public class Main2 {
 			// aceptan para que funcione el programa
 			// y iniciamos la funcion menu de nuevo
 			default:
-				System.out.println("Solo se adimite permite los numeros 1[Perímetro] y 2 [Área]");
+				System.out.println("Solo se adimite permite los numeros 1[Perímetro] y 2 [Área] y 0[Salir]");
 				ops = menu();
 			}// fin switch
 			// finalizamos el bucle si el usuario marca 0 en ops

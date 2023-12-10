@@ -1,8 +1,18 @@
 package ejercicio1;
 
 import java.util.InputMismatchException;
-import java.util.Scanner;
 
+import java.util.Scanner;
+/*/ENTRADA:1,10,15 | RES.ESPERADO: Resultado: 25.0| RES.OBTENIDO:Resultado: 25.0
+ * ENTRADA:2,10,10 | RES.ESPERADO: Resultado: 0.0| RES.OBTENIDO:Resultado: 0.0
+ * ENTRADA: 3,10,10| RES.ESPERADO: Resultado: 100.0| RES.OBTENIDO:Resultado: 100.0
+ * ENTRADA:4,10,10 | RES.ESPERADO: Resultado: 1.0| RES.OBTENIDO:Resultado: 1.0
+ * ENTRADA: 5,10,1| RES.ESPERADO:  Resultado: 10.0 | RES.OBTENIDO:Resultado: 10.0
+ * ENTRADA:6,10,1 | RES.ESPERADO:Resultado: 1.0| RES.OBTENIDO: Resultado: 1.0
+ * ENTRADA:0,10,10 | RES.ESPERADO:FIN | RES.OBTENIDO:FIN
+ * ENTRADA:10,10,10 | RES.ESPERADO: Solo se admiten los numeros 1. Suma 2. Resta 3. Multiplicación 4. División 5. Máximo 6. Mínimo 0. Salir| RES.OBTENIDO: Solo se admiten los numeros 1. Suma 2. Resta 3. Multiplicación 4. División 5. Máximo 6. Mínimo 0. Salir
+ * ENTRADA: Hola| RES.ESPERADO:Solo se puede insertar numeros | RES.OBTENIDO:Solo se puede insertar numeros
+ */
 public class Main1 {
 	//declaramos la funcion scanner como estatica para que se utilize en toda la clase
 	static Scanner sc = new Scanner(System.in);

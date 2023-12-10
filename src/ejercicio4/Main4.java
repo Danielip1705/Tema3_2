@@ -1,7 +1,14 @@
 package ejercicio4;
 
 import java.util.InputMismatchException;
+
 import java.util.Scanner;
+/*/ENTRADA: 10,10,1| RES.ESPERADO: Resultado del volumen: 1000.0 | RES.OBTENIDO: Resultado del volumen: 1000.0
+ * ENTRADA: 10,10,2 | RES.ESPERADO: Resultado de la area: 400.0| RES.OBTENIDO: Resultado de la area: 400.0
+ * ENTRADA:10,10,0 | RES.ESPERADO:FIN | RES.OBTENIDO: FIN
+ * ENTRADA:Hola | RES.ESPERADO:Solo se puede insertar numeros | RES.OBTENIDO:Solo se puede insertar numeros
+ * ENTRADA: 10,10,10 | RES.ESPERADO: Solo se puede insertar las opciones 1[Volumen] 2[Área] y 0[Salir] | RES.OBTENIDO:Solo se puede insertar las opciones 1[Volumen] 2[Área] y 0[Salir]
+ */
 
 public class Main4 {
 	// declaramos la funcion scanner como estatica para que se utilize en toda la
@@ -59,10 +66,10 @@ public class Main4 {
 			case 2:
 
 				// declaramos con res el resultado de la funcion altura
-				res = cil.altura;
+				res = cil.area();
 
 				// imprimimos resultado
-				System.out.println("Resultado de la altura: " + res);
+				System.out.println("Resultado de la area: " + res);
 
 				// rompemos la condicion
 				break;

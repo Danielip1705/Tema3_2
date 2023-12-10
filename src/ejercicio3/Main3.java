@@ -1,8 +1,14 @@
 package ejercicio3;
 
 import java.util.InputMismatchException;
-import java.util.Scanner;
 
+import java.util.Scanner;
+/*/ENTRADA: 10,1| RES.ESPERADO: Resultado del circunferencia: 62.83185307179586 | RES.OBTENIDO: Resultado del circunferencia: 62.83185307179586
+ * ENTRADA:10,2 | RES.ESPERADO: Resultado del área: 314.1592653589793 | RES.OBTENIDO:Resultado del área: 314.1592653589793
+ * ENTRADA10,0: | RES.ESPERADO: FIN| RES.OBTENIDO: FIN
+ * ENTRADA: hola| RES.ESPERADO: Solo se puede insertar numeros| RES.OBTENIDO:Solo se puede insertar numeros
+ * ENTRADA: 10,10| RES.ESPERADO:Solo se puede insertar las opciones 1[Circunferencia] 2[Área] y 0[Salir] | RES.OBTENIDO:Solo se puede insertar las opciones 1[Circunferencia] 2[Área] y 0[Salir]
+ */
 public class Main3 {
 	// declaramos la funcion scanner como estatica para que se utilize en toda la
 	// clase

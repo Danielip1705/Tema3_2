@@ -22,7 +22,7 @@ public class Cilindro {
 	double volumen() {
 		
 		//devolvemos el calculo del volumen del cilindro segun los datos introducidos
-		return (radioBase*radioBase)*altura;
+		return Math.PI*(radioBase*radioBase)*altura;
 	}
 	
 	//creamos la funcion area 
